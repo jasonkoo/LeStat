@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<!-- namespace名字必须与Mapper接口名一致 -->
+<mapper namespace="com.lenovo.push.marketing.lestat.db.hive.mapper.DeviceMapper">
+	<select id="getActiveUv" parameterType="string" resultType="device" resultMap="deviceMap">
+		select count(distinct deviceid) as uv from device where hittime>=#{st}
+	</select>	
+</mapper>

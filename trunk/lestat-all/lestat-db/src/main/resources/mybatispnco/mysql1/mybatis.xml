@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.lenovo.push.marketing.lestat.db.mysql1.entity.AppFeedbackEntity" alias="appfeedback" />	
+		<typeAlias type="com.lenovo.push.marketing.lestat.db.mysql1.entity.DistCountDimensionResult" alias="distcountdim"/>		
+		<typeAlias type="com.lenovo.push.marketing.lestat.db.mysql1.entity.AppVersionResult" alias="appversion"/>	
+		<typeAlias type="com.lenovo.push.marketing.lestat.db.mysql1.entity.AppDeviceModelResult" alias="appdevicemodel"/>
+		<typeAlias type="com.lenovo.push.marketing.lestat.db.mysql1.entity.TinySUSFeedbackResult" alias="tinysusfeedback"/>
+	</typeAliases>
+</configuration>

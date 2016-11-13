@@ -1,0 +1,180 @@
+2014-12-23 11:14:20 [com.lenovo.push.marketing.lestat.engine.App]-[INFO] config log4j: done
+2014-12-23 11:14:23 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\com\lenovo\push\marketing\lestat\db\mdrill\mapper\ErrorMapper.class]
+2014-12-23 11:14:23 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\com\lenovo\push\marketing\lestat\db\mdrill\mapper\FeedbackMapper.class]
+2014-12-23 11:14:23 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'errorMapper' and 'com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper' mapperInterface
+2014-12-23 11:14:23 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'feedbackMapper' and 'com.lenovo.push.marketing.lestat.db.mdrill.mapper.FeedbackMapper' mapperInterface
+2014-12-23 11:14:24 [org.apache.ibatis.logging.LogFactory]-[DEBUG] Logging initialized using 'org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2014-12-23 11:14:24 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed configuration file: 'class path resource [mybatis/mdrill/mybatis.xml]'
+2014-12-23 11:14:24 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\error-mapper.xml]'
+2014-12-23 11:14:24 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\feedback-mapper.xml]'
+2014-12-23 11:14:24 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\error-resultMap.xml]'
+2014-12-23 11:14:24 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\feedback-resultMap.xml]'
+2014-12-23 11:14:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed configuration file: 'class path resource [mybatis/mysql1/mybatis.xml]'
+2014-12-23 11:14:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appdevicemodel-mapper.xml]'
+2014-12-23 11:14:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appfeedback-mapper.xml]'
+2014-12-23 11:14:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appversion-mapper.xml]'
+2014-12-23 11:14:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\susfeedback-mapper.xml]'
+2014-12-23 11:14:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appdevicemodel-resultMap.xml]'
+2014-12-23 11:14:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appfeedback-resultMap.xml]'
+2014-12-23 11:14:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appversion-resultMap.xml]'
+2014-12-23 11:14:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\susfeedback-resultMap.xml]'
+2014-12-23 11:14:26 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServer]-[INFO] engine http server started: 8081
+2014-12-23 11:14:26 [com.lenovo.push.marketing.lestat.engine.App]-[INFO] initialize spring ok!
+2014-12-23 11:19:11 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:55139
+2014-12-23 11:19:11 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /engine?method=getCfError&adId=rinter2_2c91bc544a4d6b8b014a4dba1b580006&sd=20141219&ed=20141221
+2014-12-23 11:19:12 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2014-12-23 11:19:12 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1706eb7] was not registered for synchronization because synchronization is not active
+2014-12-23 11:19:12 [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [org.apache.commons.dbcp.PoolableConnection@162ba99] will not be managed by Spring
+2014-12-23 11:19:12 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ooo Using Connection [org.apache.commons.dbcp.PoolableConnection@162ba99]
+2014-12-23 11:19:12 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==>  Preparing: select type, result, sum(records) as cnt from error where thedate >= ? and thedate <= ? and ad_id = ? group by type,result 
+2014-12-23 11:19:12 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==> Parameters: 20141219(String), 20141221(String), rinter2_2c91bc544a4d6b8b014a4dba1b580006(String)
+2014-12-23 11:19:15 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] after exchange.waitForDone
+2014-12-23 11:19:15 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] exchangeState: HttpExchange.STATUS_COMPLETED: 7
+2014-12-23 11:19:15 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1706eb7]
+2014-12-23 11:19:16 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"\r\n### Error querying database.  Cause: java.sql.SQLException: Cannot convert column 3 to long: java.lang.NumberFormatException: For input string: \"3.0\"\r\n### The error may exist in file [D:\\iCodebox\\LeStat\\trunk\\lestat-all\\lestat-db\\target\\classes\\mybatis\\mdrill\\error-mapper.xml]\r\n### The error may involve com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError-Inline\r\n### The error occurred while setting parameters\r\n### SQL: select type, result, sum(records) as cnt from error where thedate >= ? and thedate <= ? and ad_id = ?    group by type,result\r\n### Cause: java.sql.SQLException: Cannot convert column 3 to long: java.lang.NumberFormatException: For input string: \"3.0\"\n; uncategorized SQLException for SQL []; SQL state [null]; error code [0]; Cannot convert column 3 to long: java.lang.NumberFormatException: For input string: \"3.0\"; nested exception is java.sql.SQLException: Cannot convert column 3 to long: java.lang.NumberFormatException: For input string: \"3.0\""}
+2014-12-23 11:19:17 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:55139
+2014-12-23 11:19:17 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 11:19:17 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 11:28:23 [com.lenovo.push.marketing.lestat.engine.App]-[INFO] config log4j: done
+2014-12-23 11:28:24 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\com\lenovo\push\marketing\lestat\db\mdrill\mapper\ErrorMapper.class]
+2014-12-23 11:28:24 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\com\lenovo\push\marketing\lestat\db\mdrill\mapper\FeedbackMapper.class]
+2014-12-23 11:28:24 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'errorMapper' and 'com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper' mapperInterface
+2014-12-23 11:28:24 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'feedbackMapper' and 'com.lenovo.push.marketing.lestat.db.mdrill.mapper.FeedbackMapper' mapperInterface
+2014-12-23 11:28:25 [org.apache.ibatis.logging.LogFactory]-[DEBUG] Logging initialized using 'org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed configuration file: 'class path resource [mybatis/mdrill/mybatis.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\error-mapper.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\feedback-mapper.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\error-resultMap.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\feedback-resultMap.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed configuration file: 'class path resource [mybatis/mysql1/mybatis.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appdevicemodel-mapper.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appfeedback-mapper.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appversion-mapper.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\susfeedback-mapper.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appdevicemodel-resultMap.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appfeedback-resultMap.xml]'
+2014-12-23 11:28:25 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appversion-resultMap.xml]'
+2014-12-23 11:28:26 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\susfeedback-resultMap.xml]'
+2014-12-23 11:28:26 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServer]-[INFO] engine http server started: 8081
+2014-12-23 11:28:27 [com.lenovo.push.marketing.lestat.engine.App]-[INFO] initialize spring ok!
+2014-12-23 11:28:37 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:55624
+2014-12-23 11:28:37 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /engine?method=getCfError&adId=rinter2_2c91bc544a4d6b8b014a4dba1b580006&sd=20141219&ed=20141221
+2014-12-23 11:28:37 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2014-12-23 11:28:37 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e687b] was not registered for synchronization because synchronization is not active
+2014-12-23 11:28:37 [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [org.apache.commons.dbcp.PoolableConnection@1716fa0] will not be managed by Spring
+2014-12-23 11:28:37 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ooo Using Connection [org.apache.commons.dbcp.PoolableConnection@1716fa0]
+2014-12-23 11:28:37 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==>  Preparing: select type, result, sum(records) as cnt from error where thedate >= ? and thedate <= ? and ad_id = ? group by type,result 
+2014-12-23 11:28:37 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==> Parameters: 20141219(String), 20141221(String), rinter2_2c91bc544a4d6b8b014a4dba1b580006(String)
+2014-12-23 11:28:38 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] after exchange.waitForDone
+2014-12-23 11:28:38 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] exchangeState: HttpExchange.STATUS_COMPLETED: 7
+2014-12-23 11:28:38 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e687b]
+2014-12-23 11:28:39 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"list":[{"errorCode":"ERROR_EXPIRED_TIME","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141219","ed":"20141221","type":"unknown","count":3},{"errorCode":"ERROR_CANCELED","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141219","ed":"20141221","type":"unknown","count":4},{"errorCode":"unknown","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141219","ed":"20141221","type":"ERROR_EXPIRED_TIME","count":2},{"errorCode":"com.qiyi.video","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141219","ed":"20141221","type":"ERROR_CANCELED","count":6}]}
+2014-12-23 11:28:40 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:55624
+2014-12-23 11:28:40 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 11:28:40 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 11:29:33 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:55624
+2014-12-23 11:29:33 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /engine?method=getCfError&adId=rinter2_2c91bc544a4d6b8b014a4dba1b580006&sd=20141220&ed=20141221
+2014-12-23 11:29:33 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2014-12-23 11:29:33 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11fc4b8] was not registered for synchronization because synchronization is not active
+2014-12-23 11:29:33 [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [org.apache.commons.dbcp.PoolableConnection@1716fa0] will not be managed by Spring
+2014-12-23 11:29:33 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ooo Using Connection [org.apache.commons.dbcp.PoolableConnection@1716fa0]
+2014-12-23 11:29:33 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==>  Preparing: select type, result, sum(records) as cnt from error where thedate >= ? and thedate <= ? and ad_id = ? group by type,result 
+2014-12-23 11:29:33 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==> Parameters: 20141220(String), 20141221(String), rinter2_2c91bc544a4d6b8b014a4dba1b580006(String)
+2014-12-23 11:29:34 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] after exchange.waitForDone
+2014-12-23 11:29:34 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] exchangeState: HttpExchange.STATUS_COMPLETED: 7
+2014-12-23 11:29:34 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11fc4b8]
+2014-12-23 11:29:34 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"list":[{"errorCode":"ERROR_EXPIRED_TIME","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141220","ed":"20141221","type":"unknown","count":3},{"errorCode":"ERROR_CANCELED","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141220","ed":"20141221","type":"unknown","count":4}]}
+2014-12-23 11:29:34 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:55624
+2014-12-23 11:29:34 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 11:29:34 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 11:30:17 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:55624
+2014-12-23 11:30:17 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /engine?method=getCfError&adId=rinter2_2c91bc544a4d6b8b014a4dba1b580006&sd=20141210&ed=20141221
+2014-12-23 11:30:17 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"maximal time span of 7 days"}
+2014-12-23 11:30:17 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:55624
+2014-12-23 11:30:17 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 11:30:17 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 15:10:49 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:64570
+2014-12-23 15:10:49 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /engine?method=getCfError&adId=rinter2_2c91bc544a4d6b8b014a4dba1b580006&sd=20141219&ed=20141221
+2014-12-23 15:10:49 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2014-12-23 15:10:49 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@157f3a4] was not registered for synchronization because synchronization is not active
+2014-12-23 15:10:49 [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [org.apache.commons.dbcp.PoolableConnection@1716fa0] will not be managed by Spring
+2014-12-23 15:10:49 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ooo Using Connection [org.apache.commons.dbcp.PoolableConnection@1716fa0]
+2014-12-23 15:10:50 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==>  Preparing: select type, result, sum(records) as cnt from error where thedate >= ? and thedate <= ? and ad_id = ? group by type,result 
+2014-12-23 15:10:50 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==> Parameters: 20141219(String), 20141221(String), rinter2_2c91bc544a4d6b8b014a4dba1b580006(String)
+2014-12-23 15:10:52 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] after exchange.waitForDone
+2014-12-23 15:10:52 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] exchangeState: HttpExchange.STATUS_COMPLETED: 7
+2014-12-23 15:10:52 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@157f3a4]
+2014-12-23 15:10:52 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"list":[{"errorCode":"ERROR_EXPIRED_TIME","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141219","ed":"20141221","type":"unknown","count":3},{"errorCode":"ERROR_CANCELED","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141219","ed":"20141221","type":"unknown","count":4},{"errorCode":"unknown","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141219","ed":"20141221","type":"ERROR_EXPIRED_TIME","count":2},{"errorCode":"com.qiyi.video","adId":"rinter2_2c91bc544a4d6b8b014a4dba1b580006","sd":"20141219","ed":"20141221","type":"ERROR_CANCELED","count":6}]}
+2014-12-23 15:10:53 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:64570
+2014-12-23 15:10:53 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 15:10:53 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 15:14:06 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:64570
+2014-12-23 15:14:06 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /engine?method=getCfError&adId=rinter2_2c91bc544a4d6b8b014a4dba1b580006&sd=20141210&ed=20141221
+2014-12-23 15:14:06 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"maximal time span of 7 days"}
+2014-12-23 15:14:06 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:64570
+2014-12-23 15:14:06 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 15:14:06 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 15:41:48 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:49537
+2014-12-23 15:41:48 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 15:41:48 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 15:41:54 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:49537
+2014-12-23 15:41:54 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 15:41:54 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 15:51:31 [com.lenovo.push.marketing.lestat.engine.App]-[INFO] config log4j: done
+2014-12-23 15:51:33 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\com\lenovo\push\marketing\lestat\db\mdrill\mapper\ErrorMapper.class]
+2014-12-23 15:51:33 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\com\lenovo\push\marketing\lestat\db\mdrill\mapper\FeedbackMapper.class]
+2014-12-23 15:51:33 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'errorMapper' and 'com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper' mapperInterface
+2014-12-23 15:51:33 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name 'feedbackMapper' and 'com.lenovo.push.marketing.lestat.db.mdrill.mapper.FeedbackMapper' mapperInterface
+2014-12-23 15:51:33 [org.apache.ibatis.logging.LogFactory]-[DEBUG] Logging initialized using 'org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed configuration file: 'class path resource [mybatis/mdrill/mybatis.xml]'
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\error-mapper.xml]'
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\feedback-mapper.xml]'
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\error-resultMap.xml]'
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mdrill\feedback-resultMap.xml]'
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed configuration file: 'class path resource [mybatis/mysql1/mybatis.xml]'
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appdevicemodel-mapper.xml]'
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appfeedback-mapper.xml]'
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appversion-mapper.xml]'
+2014-12-23 15:51:33 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\susfeedback-mapper.xml]'
+2014-12-23 15:51:34 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appdevicemodel-resultMap.xml]'
+2014-12-23 15:51:34 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appfeedback-resultMap.xml]'
+2014-12-23 15:51:34 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\appversion-resultMap.xml]'
+2014-12-23 15:51:34 [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed mapper file: 'file [D:\iCodebox\LeStat\trunk\lestat-all\lestat-db\target\classes\mybatis\mysql1\susfeedback-resultMap.xml]'
+2014-12-23 15:51:35 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServer]-[INFO] engine http server started: 8081
+2014-12-23 15:51:35 [com.lenovo.push.marketing.lestat.engine.App]-[INFO] initialize spring ok!
+2014-12-23 15:51:41 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:49727
+2014-12-23 15:51:41 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /engine?method=getCfError&adId=rinter2_2c91bc544a4d6b8b014a57801864000a&sd=20141219&ed=20141221
+2014-12-23 15:51:41 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2014-12-23 15:51:41 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@174aa60] was not registered for synchronization because synchronization is not active
+2014-12-23 15:51:42 [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [org.apache.commons.dbcp.PoolableConnection@1382926] will not be managed by Spring
+2014-12-23 15:51:42 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ooo Using Connection [org.apache.commons.dbcp.PoolableConnection@1382926]
+2014-12-23 15:51:42 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==>  Preparing: select type, result, sum(records) as cnt from error where thedate >= ? and thedate <= ? and ad_id = ? group by type,result 
+2014-12-23 15:51:42 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==> Parameters: 20141219(String), 20141221(String), rinter2_2c91bc544a4d6b8b014a57801864000a(String)
+2014-12-23 15:51:43 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] after exchange.waitForDone
+2014-12-23 15:51:43 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] exchangeState: HttpExchange.STATUS_COMPLETED: 7
+2014-12-23 15:51:43 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@174aa60]
+2014-12-23 15:51:44 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"list":[{"errorCode":"ERROR_EXPIRED_TIME","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"unknown","count":302},{"errorCode":"ERROR_NAC_NOT_WORK","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"unknown","count":25},{"errorCode":"ERROR_FAKE_PKG_NOT_FOUND","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"unknown","count":23},{"errorCode":"ERROR_CANCELED","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"unknown","count":33},{"errorCode":"unknown","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"ERROR_NAC_NOT_WORK","count":21},{"errorCode":"unknown","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"ERROR_FAKE_PKG_NOT_FOUND","count":19},{"errorCode":"unknown","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"ERROR_EXPIRED_TIME","count":291},{"errorCode":"com.qiyi.video","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"ERROR_CANCELED","count":62},{"errorCode":"com.kugou.android","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"ERROR_CANCELED","count":28},{"errorCode":"unknown","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141219","ed":"20141221","type":"ERROR_CANCELED","count":50}]}
+2014-12-23 15:51:44 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:49727
+2014-12-23 15:51:44 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 15:51:44 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 15:51:58 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:49727
+2014-12-23 15:51:58 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /engine?method=getCfError&adId=rinter2_2c91bc544a4d6b8b014a57801864000a&sd=20141220&ed=20141223
+2014-12-23 15:51:58 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2014-12-23 15:51:58 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1505258] was not registered for synchronization because synchronization is not active
+2014-12-23 15:51:58 [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [org.apache.commons.dbcp.PoolableConnection@1382926] will not be managed by Spring
+2014-12-23 15:51:58 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ooo Using Connection [org.apache.commons.dbcp.PoolableConnection@1382926]
+2014-12-23 15:51:58 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==>  Preparing: select type, result, sum(records) as cnt from error where thedate >= ? and thedate <= ? and ad_id = ? group by type,result 
+2014-12-23 15:51:58 [com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper.getCfError]-[DEBUG] ==> Parameters: 20141220(String), 20141223(String), rinter2_2c91bc544a4d6b8b014a57801864000a(String)
+2014-12-23 15:51:58 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] after exchange.waitForDone
+2014-12-23 15:51:58 [com.alimama.mdrill.jdbc.MdrillRequest]-[DEBUG] exchangeState: HttpExchange.STATUS_COMPLETED: 7
+2014-12-23 15:51:58 [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1505258]
+2014-12-23 15:51:58 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"list":[{"errorCode":"ERROR_EXPIRED_TIME","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141220","ed":"20141223","type":"unknown","count":260},{"errorCode":"ERROR_NAC_NOT_WORK","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141220","ed":"20141223","type":"unknown","count":18},{"errorCode":"ERROR_FAKE_PKG_NOT_FOUND","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141220","ed":"20141223","type":"unknown","count":20},{"errorCode":"ERROR_CANCELED","adId":"rinter2_2c91bc544a4d6b8b014a57801864000a","sd":"20141220","ed":"20141223","type":"unknown","count":30}]}
+2014-12-23 15:51:58 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:49727
+2014-12-23 15:51:58 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 15:51:58 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}
+2014-12-23 15:53:20 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:49727
+2014-12-23 15:53:20 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /engine?method=getCfError&adId=rinter2_2c91bc544a4d6b8b014a57801864000a&sd=20141210&ed=20141223
+2014-12-23 15:53:20 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"maximal time span of 7 days"}
+2014-12-23 15:53:20 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] remote address: /127.0.0.1:49727
+2014-12-23 15:53:20 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] uri: /favicon.ico
+2014-12-23 15:53:20 [com.lenovo.push.marketing.lestat.engine.server.http.EngineHttpServerHandler]-[DEBUG] returned content: {"message":"exception occurs: not supported uri: /favicon.ico"}

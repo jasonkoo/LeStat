@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lenovo.push.marketing.lestat.db.mysql1.mapper.AppDeviceModelMapper">
+	<resultMap type="distcountdim" id="appDeviceModelMap">		
+		<result property="key" column="devicemodel"/>
+		<result property="value" column="actnum"/>		
+		<result property="lastModifiedTime" column="lmt"/>
+	</resultMap>
+	<resultMap type="appdevicemodel" id="appDeviceModelMapOld">
+		<result property="sid" column="sid"/>		
+		<result property="deviceModel" column="devicemodel"/>
+		<result property="actNum" column="actnum"/>		
+		<result property="lastModifiedTime" column="lmt"/>
+	</resultMap>
+</mapper>

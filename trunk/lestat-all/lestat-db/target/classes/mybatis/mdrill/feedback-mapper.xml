@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<!-- namespace名字必须与Mapper接口名一致 -->
+
+<mapper namespace="com.lenovo.push.marketing.lestat.db.mdrill.mapper.FeedbackMapper">
+	<select id="getFeedbackResultDup" resultType="feedback" resultMap="feedbackMap" parameterType="map">
+		select sum(col_0) as arrived, sum(col_1) as displayed, sum(col_2) as clicked, sum(col_3) as s2nddisplayed, sum(col_4) as s2ndclicked, 
+		sum(col_5) as downloaded, sum(col_6) as installed, sum(col_7) as activated 
+		from feedback where thedate=#{thedate} and ad_id=#{adId}
+	</select>
+	<select id="getDistCountByColx" resultType="feedback" resultMap="feedbackMap" parameterType="map">
+		select dist(deviceid) as sum from feedbackred where thedate=#{thedate} and ad_id = #{adId} and ${colx} > 0
+		group by 111
+	</select>
+	<!-- pgkName is stored in ac_id -->
+	<select id="getDailyCfFeedbackResultDup" parameterType="map" resultType="java.util.ArrayList" resultMap="feedbackMap">
+		select ad_id, thedate, ac_id, sum(col_0) as arrived, sum(col_1) as displayed, sum(col_2) as sysmsgclicked, sum(col_3) as s2nddisplayed, sum(col_4) as s2ndclicked, 
+		sum(col_5) as downloaded, sum(col_6) as installed, sum(col_7) as activated from feedback where thedate &gt;= #{sd} and thedate &lt;= #{ed} and ad_id = #{adId} 
+		<if test="pnList != null">
+			and ac_id in
+			<foreach collection="pnList" item="item"  open="(" separator="," close=")">  
+		        #{item}  
+		    </foreach>  
+		</if>
+		group by ad_id,thedate,ac_id
+	</select>
+
+	<select id="getDailyCfFeedbackResultDist" parameterType="map" resultType="java.util.ArrayList" resultMap="feedbackMap">
+		select ad_id, thedate, ac_id, dist(deviceid) as ${eventName} from feedbackred where thedate &gt;= #{sd} and thedate &lt;= #{ed}
+		and ad_id = #{adId} and ${colx} > 0
+		<if test="pnList != null">
+			and ac_id in
+			 <foreach collection="pnList" item="item"  open="(" separator="," close=")">  
+		        #{item}  
+		     </foreach>  
+		</if>
+		group by ad_id,thedate,ac_id
+	</select>
+	
+	<select id="getDateRangeCfFeedbackResultDup" parameterType="map" resultType="java.util.ArrayList" resultMap="feedbackMap">
+		select ad_id, ac_id, sum(col_0) as arrived, sum(col_1) as displayed, sum(col_2) as sysmsgclicked, sum(col_3) as s2nddisplayed, sum(col_4) 
+		as s2ndclicked, sum(col_5) as downloaded, sum(col_6) as installed, sum(col_7) as activated from feedback where thedate &gt;= #{sd} and thedate &lt;= #{ed}
+		and ad_id = #{adId} 
+		<if test="pnList != null">
+			and ac_id in
+			 <foreach collection="pnList" item="item"  open="(" separator="," close=")">  
+		        #{item}  
+		     </foreach>  
+		</if>
+		group by ad_id,ac_id
+	</select>
+	
+	<select id="getDateRangeCfFeedbackResultDist" parameterType="map" resultType="java.util.ArrayList" resultMap="feedbackMap">
+		select ad_id, ac_id, dist(deviceid) as ${eventName} from feedbackred where thedate &gt;= #{sd} and thedate &lt;= #{ed}
+		and ad_id = #{adId} and ${colx} > 0
+		<if test="pnList != null">
+			and ac_id in
+			 <foreach collection="pnList" item="item"  open="(" separator="," close=")">  
+		        #{item}  
+		     </foreach>  
+		</if>
+		group by ad_id,ac_id
+	</select>
+</mapper>

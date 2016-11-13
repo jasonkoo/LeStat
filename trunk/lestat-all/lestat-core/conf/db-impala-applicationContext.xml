@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+     http://www.springframework.org/schema/beans 
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/tx
+     http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     http://www.springframework.org/schema/aop 
+     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+     http://www.springframework.org/schema/context 
+     http://www.springframework.org/schema/context/spring-context-3.0.xsd">    
+    
+    <bean id="dbPropertyConfigurer"
+        class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location">
+            <value>file:#{systemProperties['lestat.home']}/conf/jdbc.properties</value>
+        </property>
+    </bean>  
+            
+    <!-- DBCP 连接池 -->	
+	<bean id="impalaDataSource" class="org.apache.commons.dbcp.BasicDataSource"  destroy-method="close">  
+	    <property name="driverClassName" value="${impala.driver}" />  
+	    <property name="url" value="${impala.driverUrl}" />	  
+	    <property name="initialSize" value="${impala.initialSize}"/>           
+        <property name="maxActive" value="${impala.maxActive}"/>
+        <property name="validationQuery" value="${impala.validationQuery}"/>
+        <property name="testWhileIdle" value="${impala.testWhileIdle}"/>
+        <property name="timeBetweenEvictionRunsMillis" value="${impala.timeBetweenEvictionRunsMillis}"/>
+        <property name="minEvictableIdleTimeMillis" value="${impala.minEvictableIdleTimeMillis}"/>
+        <property name="testOnBorrow" value="${impala.testOnBorrow}"/>         
+	</bean>  
+	
+	<bean id="impalaSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"> 
+		<property name="dataSource" ref="impalaDataSource" /> 
+		<property name="configLocation" value="classpath:mybatis/impala/mybatis.xml" />
+		<property name="mapperLocations">
+			<list>
+				<value>classpath:mybatis/impala/*-mapper.xml</value>
+				<value>classpath:mybatis/impala/*-resultMap.xml</value>
+			</list>
+		</property>
+	</bean>		
+	
+	 <bean id="impalaSqlSessionTemplate"     class="org.mybatis.spring.SqlSessionTemplate">   
+      <constructor-arg index="0" ref="impalaSqlSessionFactory" />     
+    </bean>  
+	
+	<!-- 自动扫描 mybatis mapper 接口 -->
+	<bean name="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="sqlSessionTemplateBeanName" value="impalaSqlSessionTemplate"/>
+		<property name= "basePackage" value="com.lenovo.push.marketing.lestat.db.impala.mapper" />
+		<property name="markerInterface" value="com.lenovo.push.marketing.lestat.db.impala.mapper.BaseMapper" />		
+	</bean>	
+	
+	<bean id="impalaTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager"> 
+		<property name="dataSource" ref="impalaDataSource" /> 
+	</bean>		
+	
+	<!-- 注解式事务管理 -->
+	<tx:annotation-driven transaction-manager="impalaTransactionManager" /> 
+           <!-- 自动扫描bean，把作了注解的类转换为bean -->
+        <context:component-scan base-package="com.lenovo.push.marketing.lestat.db.impala" />
+</beans>   

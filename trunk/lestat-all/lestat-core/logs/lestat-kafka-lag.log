@@ -1,0 +1,274 @@
+2015-01-20 16:39:20 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 16:39:21 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 16:39:21 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 16:39:22 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 16:39:22 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 16:39:23 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 16:39:23 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 16:39:24 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 16:39:24 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 16:39:25 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 16:39:25 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 16:39:26 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 16:39:26 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 16:39:27 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 16:39:27 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 16:39:28 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 16:39:28 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 16:39:29 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 16:39:29 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 16:39:30 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 16:39:30 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :19
+2015-01-20 16:39:30 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 16:40:51 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 16:40:51 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 16:40:52 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 16:40:52 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 16:40:53 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 16:40:53 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 16:40:54 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 16:40:54 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 16:40:55 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 16:40:55 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 16:40:56 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 16:40:56 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 16:40:57 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 16:40:57 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 16:40:58 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 16:40:58 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 16:40:59 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 16:40:59 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 16:41:00 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 16:41:00 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 16:41:00 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 17:25:54 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 17:25:55 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 17:25:55 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 17:25:56 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 17:25:56 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 17:25:57 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 17:25:57 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 17:25:58 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 17:25:58 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 17:25:59 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 17:25:59 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 17:26:00 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 17:26:00 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 17:26:01 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 17:26:01 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 17:26:02 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 17:26:02 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 17:26:03 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 17:26:03 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 17:26:04 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 17:26:04 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :19
+2015-01-20 17:26:04 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 17:27:47 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 17:27:47 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 17:27:48 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 17:27:48 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 17:27:49 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 17:27:49 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 17:27:50 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 17:27:50 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 17:27:51 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 17:27:51 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 17:27:52 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 17:27:52 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 17:27:53 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 17:27:53 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 17:27:54 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 17:27:54 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 17:27:55 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 17:27:55 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 17:27:56 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 17:27:56 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 17:27:56 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 17:30:15 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 17:30:15 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 17:30:16 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 17:30:16 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 17:30:17 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 17:30:17 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 17:30:18 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 17:30:18 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 17:30:19 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 17:30:19 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 17:30:20 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 17:30:20 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 17:30:21 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 17:30:21 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 17:30:22 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 17:30:22 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 17:30:23 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 17:30:23 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 17:30:24 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 17:30:24 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 17:30:24 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 17:35:19 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 17:35:19 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 17:35:19 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 17:35:20 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 17:35:20 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 17:35:21 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 17:35:21 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 17:35:22 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 17:35:22 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 17:35:23 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 17:35:23 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 17:35:24 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 17:35:24 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 17:35:25 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 17:35:25 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 17:35:26 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 17:35:26 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 17:35:27 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 17:35:27 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 17:35:28 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 17:35:28 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 17:45:57 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 17:45:57 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 17:45:58 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 17:45:58 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 17:45:59 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 17:45:59 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 17:46:00 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 17:46:00 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 17:46:01 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 17:46:01 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 17:46:02 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 17:46:02 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 17:46:03 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 17:46:03 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 17:46:04 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 17:46:04 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 17:46:05 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 17:46:05 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 17:46:06 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 17:46:06 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 17:46:07 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 17:50:55 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 17:50:55 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 17:50:56 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 17:50:56 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 17:50:57 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 17:50:57 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 17:50:58 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 17:50:58 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 17:50:59 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 17:50:59 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 17:51:00 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 17:51:00 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 17:51:01 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 17:51:01 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 17:51:02 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 17:51:02 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 17:51:03 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 17:51:03 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 17:51:04 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 17:51:04 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 17:51:04 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 18:01:31 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 18:01:32 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 18:01:32 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 18:01:33 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 18:01:33 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 18:01:34 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 18:01:34 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 18:01:35 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 18:01:35 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 18:01:36 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 18:01:36 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 18:01:37 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 18:01:37 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 18:01:38 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 18:01:38 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 18:01:39 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 18:01:39 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 18:01:40 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 18:01:40 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 18:01:41 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 18:01:41 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 19:12:28 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 19:12:28 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 19:12:29 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 19:12:29 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 19:12:30 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 19:12:30 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 19:12:31 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 19:12:31 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 19:12:32 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 19:12:32 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 19:12:33 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 19:12:33 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 19:12:34 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 19:12:34 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 19:12:35 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 19:12:35 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 19:12:36 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 19:12:36 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 19:12:37 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 19:12:37 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 19:12:38 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 19:13:29 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 19:13:29 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 19:13:29 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 19:13:30 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 19:13:30 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 19:13:31 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 19:13:31 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 19:13:32 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 19:13:32 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 19:13:33 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 19:13:33 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 19:13:34 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 19:13:34 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 19:13:35 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 19:13:35 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 19:13:36 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 19:13:36 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 19:13:37 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 19:13:37 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 19:13:38 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 19:15:06 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 19:15:06 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 19:15:06 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 19:15:07 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 19:15:07 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 19:15:08 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 19:15:08 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 19:15:09 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 19:15:09 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 19:15:10 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 19:15:10 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 19:15:11 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 19:15:11 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 19:15:12 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 19:15:12 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 19:15:13 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 19:15:13 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 19:15:14 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 19:15:14 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 19:15:15 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 19:15:15 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null
+2015-01-20 19:19:24 [com.lenovo.push.marketing.lestat.kafka.lag.LagCollectorMain]-[INFO] config log4j: done
+2015-01-20 19:19:24 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :0
+2015-01-20 19:19:24 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :1
+2015-01-20 19:19:25 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :2
+2015-01-20 19:19:25 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :3
+2015-01-20 19:19:26 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :4
+2015-01-20 19:19:26 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :5
+2015-01-20 19:19:27 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :6
+2015-01-20 19:19:27 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :7
+2015-01-20 19:19:28 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :8
+2015-01-20 19:19:28 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :9
+2015-01-20 19:19:29 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :10
+2015-01-20 19:19:29 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :11
+2015-01-20 19:19:30 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :12
+2015-01-20 19:19:30 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :13
+2015-01-20 19:19:31 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :14
+2015-01-20 19:19:31 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :15
+2015-01-20 19:19:32 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :16
+2015-01-20 19:19:32 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :17
+2015-01-20 19:19:33 [com.lenovo.czlib.nodex.ZKHelper]-[INFO] Wait for zookeeper connected, try count :18
+2015-01-20 19:19:33 [com.lenovo.czlib.nodex.ZKHelper]-[DEBUG] WatchedEvent state:SyncConnected type:None path:null

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<!-- namespace名字必须与Mapper接口名一致 -->
+<mapper namespace="com.lenovo.push.marketing.lestat.db.mdrill.mapper.ErrorMapper">
+	<select id="getCfError" parameterType="map" resultType="java.util.ArrayList" resultMap="errorMap">
+		select type, result, sum(records) as cnt from pncoerror where thedate &gt;= #{sd} and thedate &lt;= #{ed} and ad_id = #{adId} 
+		group by type,result
+	</select>	
+</mapper>

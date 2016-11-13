@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+     http://www.springframework.org/schema/beans 
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/tx
+     http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     http://www.springframework.org/schema/aop 
+     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+     http://www.springframework.org/schema/context 
+     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+     
+	<bean id="config"
+		class="com.lenovo.push.marketing.lestat.common.config.Config">
+		<property name="kafkaTopic">			
+			<value>appfeedback-topic</value>
+		</property>
+		<property name="partitionCount">
+			<value>24</value>
+		</property>	
+	</bean>	
+	<bean id="transporter"
+		class="com.lenovo.push.marketing.lestat.kafka.appfeedback.AppFeedbackDataTransporter" init-method="init">
+		<property name="config" ref="config" />		
+	</bean>
+	
+	
+	
+	
+	<!-- 配置quartz -->
+	<!-- 加入Job -->
+	<!-- 
+	<bean id="updateActiveTasksJob" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass" value="com.lenovo.push.marketing.lestat.kafka.appfeedback.UpdateActiveTasksJob" />		
+		<property name="jobDataAsMap">
+			<map>			
+				<entry key="appMsgService" value-ref="mysql0AppMsgService" />
+				<entry key="activeAppMsgService" value-ref="activeAppMsgServiceImpl" />			
+			</map>
+		</property>	
+	</bean>	 
+	-->
+	
+	<!-- 配置触发器 -->
+	<!-- 
+	<bean id="updateActiveTasksJobTrigger" 
+                class="org.springframework.scheduling.quartz.CronTriggerBean"> 
+		<property name="jobDetail" ref="updateActiveTasksJob" />
+		<property name="cronExpression" value="0 0/1 * * * ?" /> 
+	</bean>	 
+	-->
+	<!-- 添加触发器 -->
+	<!-- 
+	<bean id="schedulerFactoryBean"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		
+		<property name="triggers">
+			<list>
+				<ref local="updateActiveTasksJobTrigger" />
+			</list>
+		</property>
+	</bean>	
+	 -->
+	<context:component-scan base-package="com.lenovo.push.marketing.lestat.kafka.appfeedback" />
+	<import resource="db-redis-applicationContext.xml"></import>
+	<!-- <import resource="db-mysql0-applicationContext.xml"></import> -->
+</beans>

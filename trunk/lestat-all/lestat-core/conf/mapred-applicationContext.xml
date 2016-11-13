@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+     http://www.springframework.org/schema/beans 
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/tx
+     http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     http://www.springframework.org/schema/aop 
+     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+     http://www.springframework.org/schema/context 
+     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	
+	<bean id="config"
+		class="com.lenovo.push.marketing.lestat.common.config.Config">
+		<property name="hitTopic">
+			<!-- <value>${hit.topic}</value>  -->
+			<value>hit-topic</value>
+		</property>
+		<property name="hadoopConfDir">
+			<!-- <value>${hadoop.conf.dir}</value> -->
+			<value>/etc/hadoop/conf</value>
+		</property>
+		<property name="lestatHdfsHome">
+			<!-- <value>${lestat.hdfs.home}</value> -->
+			<value>/lestat</value>
+		</property>
+	</bean>
+	
+	<!-- 
+	<context:component-scan base-package="com.lenovo" />
+	 -->	 
+
+	<bean id="mapredPropertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">     		
+				<value>file:#{systemProperties['lestat.home']}/conf/mapred.properties</value>
+		</property>
+	</bean> 
+	
+
+	<bean id="mapredParams"
+		class="com.lenovo.push.marketing.lestat.mr.param.Param">
+		<property name="libjars">
+			<value>${libjars}</value>
+		</property>
+		<property name="thedate">
+			<value>${thedate}</value>
+		</property>
+		<property name="dataSource">
+			<value>${dataSource}</value>
+		</property>
+		<property name="stage1Dir">
+			<value>${stage1Dir}</value>
+		</property>
+		<property name="stage2Dir">
+			<value>${stage2Dir}</value>
+		</property>
+		<property name="stage2TotalDir">
+			<value>${stage2TotalDir}</value>
+		</property>
+		<property name="stage3Dir">
+			<value>${stage3Dir}</value>
+		</property>
+		<property name="resultPath">
+			<value>${resultPath}</value>
+		</property>
+		<property name="totalPath">
+			<value>${totalPath}</value>
+		</property>
+		<property name="numRedStage1">
+			<value>${numRedStage1}</value>
+		</property>
+		<property name="numRedStage2">
+			<value>${numRedStage2}</value>
+		</property>
+		<property name="numRedStage3">
+			<value>${numRedStage3}</value>
+		</property>
+	</bean>	
+	
+	
+	<bean id="driver" class="com.lenovo.push.marketing.lestat.mr.disturbance.Driver">
+		<property name="config" ref="config" />
+		<property name="param" ref="mapredParams"/>
+	</bean>
+
+	<bean id="mrtask" class="com.lenovo.push.marketing.lestat.mr.task.MRTask" init-method="init">
+		<property name="driver" ref="driver" />
+	</bean>
+	
+	<bean id="rrtask" class="com.lenovo.push.marketing.lestat.mr.task.RRTask" init-method="init">
+		<property name="driver" ref="driver" />
+	</bean>
+	
+	<bean id="dbtask" class="com.lenovo.push.marketing.lestat.mr.task.DBTask">
+		<property name="disturbanceService" ref="disturbanceService" />
+	</bean>		
+	
+	<!-- 配置quartz -->
+	<!-- 加入Job -->
+	<bean id="jobBJobDetail" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass" value="com.lenovo.push.marketing.lestat.mr.job.JobB" />
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="param" value-ref="mapredParams"/>
+				<entry key="mrtask" value-ref="mrtask" />
+				<entry key="rrtask" value-ref="rrtask" />
+				<entry key="dbtask" value-ref="dbtask" />
+			</map>
+		</property>	
+		<!-- <property name="applicationContextJobDataKey" value="applicationContext" /> -->
+	</bean>
+	
+	<!-- 配置触发器 -->
+	<bean id="simpleTriggerJobB" class="org.springframework.scheduling.quartz.SimpleTriggerBean">
+		<property name="jobDetail" ref="jobBJobDetail" />
+		<property name="startDelay" value="1000" />
+		<property name="repeatInterval" value="14400000" />
+		<!-- <property name="repeatCount" value="1" /> -->
+	</bean>
+	
+	<bean id="cronTriggerJobB" 
+                class="org.springframework.scheduling.quartz.CronTriggerBean"> 
+		<property name="jobDetail" ref="jobBJobDetail" />
+		<property name="cronExpression" value="0 50 0 * * ?" /> 
+	</bean>	
+ 
+	<bean id="schedulerFactoryBean"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<!-- 添加触发器 -->
+		<property name="triggers">
+			<list>
+				<ref local="cronTriggerJobB" />
+			</list>
+		</property>
+	</bean>
+	
+	<import resource="db-applicationContext.xml"></import>
+</beans>

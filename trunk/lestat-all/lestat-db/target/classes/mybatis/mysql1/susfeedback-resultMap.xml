@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lenovo.push.marketing.lestat.db.mysql1.mapper.SUSFeedbackMapper">
+	<resultMap type="tinysusfeedback" id="susFeedbackMap">
+		<result property="appKey" column="appKey"/>
+		<result property="targetVercode" column="targetVercode"/>
+		<result property="channelKey" column="channelKey"/>
+		<result property="startDate" column="startdate"/>
+		<result property="endDate" column="enddate"/>
+		<result property="eventName" column="eventName"/>
+		<result property="cnt" column="cnt"/>
+		<result property="lastModifiedTime" column="lmt"/>
+	</resultMap>
+</mapper>

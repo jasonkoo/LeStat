@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+	<id>assembly</id>
+	<formats>
+		<format>tar.gz</format>
+	</formats>
+
+	<fileSets>
+
+		<fileSet>
+			<directory>../lestat-core/bin</directory>
+			<outputDirectory>bin</outputDirectory>
+			<directoryMode>0777</directoryMode>
+			<fileMode>0777</fileMode>
+		</fileSet>
+		<fileSet>
+			<directory>../lestat-core/conf</directory>
+			<outputDirectory>conf</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<!-- <outputDirectory>logs</outputDirectory> -->
+			<directory>../lestat-core/logs</directory>
+			<outputDirectory>logs</outputDirectory>
+			<excludes>
+				<exclude>**.log**</exclude>
+			</excludes>
+		</fileSet>
+	</fileSets>
+
+	<dependencySets>
+		<dependencySet>
+			<outputDirectory>lib</outputDirectory>
+		</dependencySet>
+	</dependencySets>
+
+</assembly>

@@ -1,0 +1,10 @@
+com\lenovo\push\marketing\hive\App.class
+com\lenovo\push\marketing\hive\task\HiveTaskMain.class
+com\lenovo\push\marketing\hive\serde\JSONSerDe.class
+com\lenovo\push\marketing\hive\util\JdbcUtil.class
+com\lenovo\push\marketing\hive\task\param\Param.class
+com\lenovo\push\marketing\hive\udf\ExtractHour.class
+com\lenovo\push\marketing\hive\udf\Sha1.class
+com\lenovo\push\marketing\hive\task\subtask\AppFeedbackTask.class
+com\lenovo\push\marketing\hive\task\dbproxy\DbProxy.class
+com\lenovo\push\marketing\hive\serde\JSONSerDe$1.class

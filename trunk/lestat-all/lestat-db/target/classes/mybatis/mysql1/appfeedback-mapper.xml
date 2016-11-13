@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<!-- namespace名字必须与Mapper接口名一致 -->
+<mapper namespace="com.lenovo.push.marketing.lestat.db.mysql1.mapper.AppFeedbackMapper">
+	<insert id="insertAppFeedbackResult" parameterType="appfeedback">
+		insert into appfeedback(sid, adid, startdate, enddate, pushed, arrived, displayed, clicked, ct, lmt, overallflag)
+		values(#{sid}, #{adId}, #{startDate}, #{endDate}, #{pushed}, #{arrived}, #{displayed}, #{clicked}, #{createdTime}, #{lastModifiedTime}, #{overallFlag})		
+	</insert>
+	<select id="getOverAllAppFeedback" parameterType="map" resultType="java.util.ArrayList" resultMap="appFeedbackMap">
+		select y.sid, y.adid, y.startdate, y.enddate, y.pushed, y.arrived, y.displayed, y.clicked, y.ct, y.lmt from
+		(select max(lmt) as maxlmt from appfeedback where sid=#{sid} and adid=#{adid} and overallflag=true
+		group by startdate, enddate ) as x inner join appfeedback as y on y.sid=#{sid} and y.adid=#{adid} and overallflag=true and y.lmt=x.maxlmt
+		order by startdate desc
+	</select>
+	<!-- <select id="getDetailAppFeedback" parameterType="map" resultType="java.util.ArrayList" resultMap="appFeedbackMap">
+		select y.sid, y.adid, y.startdate, y.enddate, y.pushed, y.arrived, y.displayed, y.clicked, y.ct, y.lmt from 
+		(select max(lmt) as maxlmt from appfeedback where sid=#{sid} and adid=#{adid} and overallflag=false 
+		<if test="startdate != null">  
+   			and startdate&gt;=#{startdate}
+		</if>
+		<if test="enddate != null">  
+   			and enddate&lt;=#{enddate}
+		</if>
+ 		group by startdate, enddate ) as x inner join appfeedback as y on y.sid=#{sid} and y.adid=#{adid} and overallflag=false and y.lmt=x.maxlmt
+ 		order by startdate desc
+	</select> -->
+	
+	<select id="getDetailAppFeedback" parameterType="map" resultType="java.util.ArrayList" resultMap="appFeedbackMap">
+		select thedate, eventtype, value from appfeedback where sid=#{sid} and adid=#{adid} and thedate&gt;=#{startdate} and thedate&lt;=#{enddate}
+ 		order by thedate,eventtype asc
+	</select>		
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lenovo.push.marketing.lestat.db.mdrill.mapper.FeedbackMapper">
+	<resultMap type="feedback" id="feedbackMap">
+		<result property="thedate" column="thedate"/>
+		<result property="adId" column="ad_id"/>
+		<result property="pid" column="pid"/>
+		<result property="pkgName" column="ac_id"/>
+		<result property="arrived" column="arrived"/>
+		<result property="displayed" column="displayed"/>
+		<result property="sysmsgclicked" column="sysmsgclicked"/>
+		<result property="s2nddisplayed" column="s2nddisplayed"/>
+		<result property="s2ndclicked" column="s2ndclicked"/>		
+		<result property="downloaded" column="downloaded"/>
+		<result property="installed" column="installed"/>		
+		<result property="activated" column="activated"/>
+		<result property="sum" column="sum" />
+	</resultMap>
+</mapper>

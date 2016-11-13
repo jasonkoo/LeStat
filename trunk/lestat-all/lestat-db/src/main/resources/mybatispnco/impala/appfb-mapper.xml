@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<!-- namespace名字必须与Mapper接口名一致 -->
+<mapper namespace="com.lenovo.push.marketing.lestat.db.impala.mapper.AppFeedbackMapper">
+	<select id="getAppFeedbackStat" parameterType="string" resultType="stat" resultMap="statMap">
+		select sid, adid, eventtype, count(distinct deviceid) as cnt from appfeedback where thedate=#{thedate} group by sid, adid, eventtype
+	</select>	
+</mapper>

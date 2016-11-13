@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lenovo.push.marketing.lestat.db.mysql0.mapper.AppMsgMapper">
+	<resultMap type="appmsg" id="appMsgMap">
+		<result property="appSid" column="app_sid"/>
+		<result property="appMsgid" column="app_msgid"/>
+		<result property="startdate" column="startdate"/>
+		<result property="enddate" column="enddate"/>		
+	</resultMap>
+</mapper>

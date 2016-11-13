@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lenovo.push.marketing.lestat.db.mysql2.mapper.TaskInfoMapper">
+	<resultMap type="taskinfo" id="taskInfoMap">
+		<result property="feedbackId" column="fbid"/>
+		<result property="pkgName" column="task_app_pgkname"/>	
+	</resultMap>
+</mapper>

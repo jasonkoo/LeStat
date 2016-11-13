@@ -1,0 +1,6 @@
+/* ----------solve the bootstrap css compatible problem with handsontable: solved by Ying Liu---------- */
+.handsontableInput {
+  		-webkit-box-sizing: content-box !important;
+		-moz-box-sizing: content-box !important;
+		box-sizing: content-box !important;
+}
